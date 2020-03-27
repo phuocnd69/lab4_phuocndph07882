@@ -12,12 +12,12 @@
       </tr>
     </thead>
     <tbody>
-      <tr *ngFor="let product of products">
-        <th scope="row" ><p>{{product.id}}</p></th>
-        <td ><p>{{product.name}}</p></td>
+      <tr *ngFor="let Bike of bike">
+        <th scope="row" ><p>{{Bike.id}}</p></th>
+        <td ><p>{{Bike.name}}</p></td>
         <td ><p><img  style="width: 70px; height: 40px;" src="{{product.img}}" alt=""></p></td>
-        <td ><p>{{product.price}}</p></td>
-        <td ><p>{{product.status}}</p></td>
+        <td ><p>{{Bike.price}}</p></td>
+        <td ><p>{{Bike.status}}</p></td>
         <td> <button class="btn btn-primary d-block w-100 btn-lg" (click)="removeItem(product.id)">Delete</button></td>
       </tr>
       
