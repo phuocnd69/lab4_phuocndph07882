@@ -5,14 +5,14 @@ export const Data: Bike[]=[
   id: 1,
   name: "Ducati Superleggera V4",
   price: 100000,
-  photo: "https://znews-photo.zadn.vn/w1024/Uploaded/dqvpxpck/2020_02_07/2020_ducati_superleggera_v4_panigale_price_specs_official_42.jpg",
+  photo: "https://www.carscoops.com/wp-content/uploads/2020/02/Ducati-Superleggera-V4-2-1024x683.jpg",
   status: true
   },
   {
   id: 2,
-  name:"Ducati 959 Panigale Corse",
+  name:"Ducati-Diavel-1260S1",
   price: 27000,
-  photo:"https://gaadiwaadi.com/wp-content/uploads/2017/11/Ducati-959-Panigale-Corse-Edition-1-500x333.jpg",
+  photo:"https://motosaigon.vn/wp-content/uploads/2020/01/2020-Ducati-Diavel-1260S1-1024x683.jpg",
   status: true
     },
     {

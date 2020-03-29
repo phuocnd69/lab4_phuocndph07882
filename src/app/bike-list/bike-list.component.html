@@ -5,7 +5,7 @@
     <div class="col-lg-4 col-md-6 mb-4" *ngFor="let bike of bikes" >
 
         <div class="card h-100">
-            <a href="#"><img class="card-img-top" [src]="product.img" alt=""></a>
+            <a href="#"><img class="card-img-top" [src]="bike.photo" alt=""></a>
             <div class="card-body">
               <h4 class="card-title">
                 <a href="#">{{bike.name}}</a>
@@ -15,7 +15,7 @@
             </div>
             <div class="card-footer">
               <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-                <button class="btn btn-primary d-block w-100 btn-lg" (click)="showDetail(product)">show</button>
+                <button class="btn btn-primary d-block w-100 btn-lg" (click)="showDetail(bike)">show</button>
  
             </div>
           </div>

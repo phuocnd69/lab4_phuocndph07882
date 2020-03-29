@@ -9,7 +9,7 @@ import{ Observable} from 'rxjs';
 })
 
 export class BikeService{
-  api="http://5e79b9de17314d001613350f.mockapi.io/bike"
+  api="https://5e79b9de17314d001613350f.mockapi.io/bike"
   constructor(
     private http: HttpClient,
   ) { }
@@ -19,7 +19,11 @@ export class BikeService{
     return this.http.get<Bike[]>(this.api);
   }
 
-  // getBike(id): Observable<Bike>{
+  getBike(id): Observable<Bike>{
 
-  //   return this.http.get<Bike> {`${this.api}/${id}`};
+    return this.http.get<Bike> (`${this.api}/${id}`);
   }
+  addBike(bike){
+    let newObj = { ...bike};
+  }
+}

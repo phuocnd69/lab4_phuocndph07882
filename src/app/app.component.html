@@ -7,20 +7,25 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home
+      
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/bike-list" routerLinkActive="active">Bike-List</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/bike-manager" routerLinkActive="active">Bike-manager</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" routerLink="/about" routerLinkActive="active" >About
             <span class="sr-only">(current)</span>
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" routerLink="/service" routerLinkActive="active">Service</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Services</a>
+          <a class="nav-link" routerLink="/home" routerLinkActive="active">Home</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-        </li>
+        
       </ul>
     </div>
   </div>
@@ -39,13 +44,15 @@
     <!-- /.col-lg-3 -->
 
     <div class="col-lg-9">
-
       <app-slide></app-slide>
+      <router-outlet></router-outlet>
+      <!-- <app-product-manager></app-product-manager>
 
-      <app-bike-list></app-bike-list>
+      <app-slider></app-slider>
+      <app-product-list></app-product-list> -->
+     
       <!-- /.row -->
 
-      <app-bike-manager></app-bike-manager>
     </div>
     <!-- /.col-lg-9 -->
 
@@ -58,7 +65,7 @@
 <!-- Footer -->
 <footer class="py-5 bg-dark">
   <div class="container">
-    <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
+    <p class="m-0 text-center text-white">Ducati - MotoBike For People </p>
   </div>
   <!-- /.container -->
 </footer>

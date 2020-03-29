@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import{ Data } from '../mockData';
-import{ Product } from '../bike'
+import{ Bike } from '../bike'
 @Component({
   selector: 'app-bike-manager',
   templateUrl: './bike-manager.component.html',
